@@ -1,0 +1,61 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212,168,67,0.08) 0%, transparent 70%);
+}
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+.auth-header { text-align: center; margin-bottom: 32px; }
+.auth-logo {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  margin-bottom: 20px;
+}
+.auth-header h2 { font-family: var(--font-display); font-size: 26px; font-weight: 800; margin-bottom: 6px; }
+.auth-header p { color: var(--text-secondary); font-size: 14px; }
+.auth-error {
+  background: rgba(255,101,132,0.1);
+  border: 1px solid rgba(255,101,132,0.3);
+  color: var(--accent-2);
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.auth-form { display: flex; flex-direction: column; gap: 18px; }
+.form-group { display: flex; flex-direction: column; gap: 6px; }
+.form-group label { font-size: 13px; font-weight: 600; color: var(--text-secondary); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.auth-submit { width: 100%; justify-content: center; padding: 14px; font-size: 15px; margin-top: 4px; }
+.auth-demo {
+  margin-top: 20px;
+  padding: 14px;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  text-align: center;
+}
+.auth-demo p { font-size: 12px; color: var(--text-muted); margin-bottom: 6px; }
+.auth-demo code {
+  font-size: 12px;
+  color: var(--accent);
+  background: rgba(212,168,67,0.1);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.auth-footer { text-align: center; margin-top: 24px; font-size: 14px; color: var(--text-secondary); }
+.auth-footer a { color: var(--accent); font-weight: 600; }

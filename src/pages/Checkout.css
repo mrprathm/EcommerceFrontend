@@ -1,0 +1,13 @@
+.checkout-page { padding-top: 100px; min-height: 100vh; padding-bottom: 60px; }
+.checkout-layout { display: grid; grid-template-columns: 1fr 360px; gap: 24px; margin-top: 32px; }
+.checkout-form h3, .order-summary h3 { font-family: var(--font-display); font-size: 18px; font-weight: 700; margin-bottom: 20px; }
+.checkout-form form { display: flex; flex-direction: column; gap: 18px; }
+.checkout-btn { width: 100%; justify-content: center; padding: 14px; font-size: 15px; margin-top: 8px; }
+.summary-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text-secondary); }
+.summary-total { display: flex; justify-content: space-between; padding: 14px 0 0; font-size: 16px; }
+.success-card { max-width: 440px; margin: 160px auto; text-align: center; padding: 48px 40px; }
+.success-icon { font-size: 64px; margin-bottom: 20px; }
+.success-card h2 { font-family: var(--font-display); font-size: 26px; font-weight: 800; margin-bottom: 8px; }
+.success-card p { color: var(--text-secondary); margin-bottom: 28px; }
+.success-actions { display: flex; flex-direction: column; gap: 10px; }
+@media (max-width: 768px) { .checkout-layout { grid-template-columns: 1fr; } }
