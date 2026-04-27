@@ -55,7 +55,7 @@ Opens at: **http://localhost:3000**
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | prathamrathod200@gmail.com | Golu |
+| Admin | pratham@gmail.com | Pratham |
 
 ---
 
