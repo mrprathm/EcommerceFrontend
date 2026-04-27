@@ -1,4 +1,4 @@
-# ⚡ ShopX — E-Commerce Frontend
+# 🛒 Rathod Store — E-Commerce Frontend
 
 > **Developed by [Pratham Rathod](mailto:prathamrathod200@gmail.com)**  
 > React.js | Dark Theme | Full Working E-Commerce UI
